@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/banner-cut.png">
+
 </p>
 
 <h1 align="center">artustop</h1>
