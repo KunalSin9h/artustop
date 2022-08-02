@@ -75,7 +75,8 @@ body {
 }
 
 .btn {
-    color: black;
+    color: white;
+    font-weight: 600;
     background-color: #e6466e;
     padding: .75rem 1.5rem;
     border-radius: .5rem;
