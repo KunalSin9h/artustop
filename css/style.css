@@ -83,4 +83,15 @@ body {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b4183f;
+}
+
+.btn:focus {
+    background-color:   #700f28;
 }
