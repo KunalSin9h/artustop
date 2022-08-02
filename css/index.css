@@ -1,0 +1,42 @@
+.main-content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.main-content .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.main-content .lady {
+    background-image: url(../images/lady.png);
+    flex-grow: 1;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.main-content .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
+@media (max-width: 900px) {
+    .main-content .img-wrapper {
+        display: none;
+    }
+
+    .main-content {
+        justify-content: center;
+    }
+
+}
