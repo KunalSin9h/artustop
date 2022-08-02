@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *, *::before, *::after {
     box-sizing: borider-box;
 }
 
 body {
-    background: url(../images/bg.png);
+    background: url(./popup-bg.png);
 }
 
 #card {
-    height: 310px;
-    width: 350px;
+    height: 350px;
+    width: 310px;
 }
 
 #header {
@@ -20,48 +21,53 @@ body {
     font-size: 1.2rem;
     font-family: 'Paytone One', sans-serif;
     letter-spacing:3px;
-    margin-left: 45px;
+    margin-left: 30px;
     margin-top: -1em;
 }
 
 #description {
-    background: url("../images/text-bg.png");
-    background-size: cover;
-    font-size: 1.2rem;
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    border-radius: 5px;
+    font-weight: bold;
     height: 70px;
 }
 
-#text-box {
-    padding: 1px;
-    position: absolute;
-    margin-top: 4px;
-    margin-right: 15px;
+#description #text-color{
+    color: #e6466e;
 }
 
-.button{
-    height: 40px;
-    width: 100px;
-    position: relative;
-    font-size: 20px;
-    font-family: 'Paytone One', sans-serif;
+.btn {
     color: white;
-    background-color: #ff0066;
-    border-radius: 10px;
+    font-weight: 600;
+    background-color: #e6466e;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b4183f;
+}
+
+.btn:focus {
+    background-color:   #700f28;
 }
 
 #visit {
-    top: 20px;
-    left: 120px;
+    position: relative;
+    top: 60px;
+    left: 10px
 }
 
 #github {
-    top: 70px;
-    left: 17px;
-}
-
-a {
-    text-decoration: none;
+    position: relative;
+    top: 110px;
+    left: -80px
 }

@@ -1,0 +1,12 @@
+.announce {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    margin: 45vh auto;
+}
+
+.announce .text-decor {
+    color: #e6466e;
+    font-weight: bold;
+}
