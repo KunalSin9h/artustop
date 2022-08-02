@@ -1,5 +1,6 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/82411321/182305363-f1614c04-0e3c-41a8-a245-5cceeb057626.png" alt="artustop banner">
+    <!-- this link is also set in meta of pages so when remove then update there also -->
 </p>
 
 <h1 align="center">artustop</h1>
