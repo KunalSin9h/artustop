@@ -7,34 +7,36 @@
 }
 
 body {
-    background: url(./popup-bg.png);
+    background: url(popup-bg.png);
 }
 
-#card {
+.card {
     height: 350px;
     width: 310px;
+    margin: 0;
+    padding: 0;
 }
 
-#header {
+.header {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
     font-family: 'Paytone One', sans-serif;
-    letter-spacing:3px;
+    letter-spacing:2px;
     margin-left: 30px;
     margin-top: -1em;
 }
 
-#description {
-    font-size: 2rem;
+.description {
+    font-size: 1.9rem;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     height: 70px;
 }
 
-#description #text-color{
-    color: #e6466e;
+.description .text-color{
+    color: #e64663;
 }
 
 .btn {
@@ -60,14 +62,14 @@ body {
     background-color:   #700f28;
 }
 
-#visit {
-    position: relative;
-    top: 60px;
-    left: 10px
+.visit{
+    position: absolute;
+    top: 220px;
+    left: 30px
 }
 
-#github {
-    position: relative;
-    top: 110px;
-    left: -80px
+.github {
+    position: absolute;
+    top: 280px;
+    left: 30px;
 }
