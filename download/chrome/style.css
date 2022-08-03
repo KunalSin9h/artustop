@@ -18,13 +18,7 @@
     align-items: flex-start;
 }
 
-.options-image img{
-    padding-bottom: 20px;
-    width: 70vw;
-    max-width: 400px;
-}
-
-.card-image img{
+.imgs {
     padding-bottom: 20px;
     width: 70vw;
     max-width: 400px;
