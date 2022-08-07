@@ -15,4 +15,4 @@
     <img alt="Contributors" src="https://img.shields.io/github/contributors/KunalSin9h/artustop?color=%23FFFF00&style=for-the-badge">
 </p>
 
-## To download visit : https://artustop.kunalsin9h.dev
+## To download visit : https://kunal-archive.github.io/artustop/
